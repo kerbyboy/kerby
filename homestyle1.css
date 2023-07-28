@@ -1,0 +1,62 @@
+header{font-family: sans-serif;}
+
+nav{
+    font-family: sans-serif;
+
+}
+
+
+
+
+
+
+
+body{
+    
+  
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)),url(image/background.jpg);
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+    padding-top: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 70px;
+}
+button{
+    
+    
+    width: 200px;
+    padding: 15px 0px;
+    text-align: center;
+    margin-left: 555px;
+    font-weight: bold;
+    border: 3px solid rgb(0, 248, 248);
+    background: transparent;
+    color: aliceblue;
+    border-radius: 30px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+span{
+    background: aquamarine;
+    height: 100%;
+    width: 0%;
+    border-radius: 30px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    
+    transition: 0.3s;
+    
+}
+button:hover span{
+    width: 100%;
+}
