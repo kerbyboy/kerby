@@ -49,3 +49,8 @@ main p{
     background-color: rgb(117, 116, 116);
     border-radius: 10px;
 }
+.navbar{
+    position: sticky;
+    top: 0;
+
+}
